@@ -1,11 +1,19 @@
+<?php
+require_once "C:/xampp/htdocs/realState/app/configDB.php";
+require_once "C:/xampp/htdocs/realState/app/functions.php";
+require_once "../shared/head.php";
+require_once "../shared/navbar.php";
+require_once "../shared/sidebar.php";
+
+?>
 <main id="main" class="main">
   <div class="pagetitle">
-    <h1>Edit Property</h1>
+    <h1>Add Property</h1>
     <nav>
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
         <li class="breadcrumb-item"><a href="#">Properties</a></li>
-        <li class="breadcrumb-item active">Edit Property</li>
+        <li class="breadcrumb-item active">Add Property</li>
       </ol>
     </nav>
   </div>
@@ -15,7 +23,7 @@
       <div class="col-12">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Edit Property</h5>
+            <h5 class="card-title">Add New Property</h5>
             <form
               class="row g-3"
               method="post"
@@ -115,9 +123,9 @@
                 <button type="submit" class="btn btn-primary">
                   Submit
                 </button>
-                <a href="#" class="btn btn-secondary">
-                  Cancel
-                </a>
+                <button type="reset" class="btn btn-secondary">
+                  Reset
+                </button>
               </div>
             </form>
             <!-- End Multi Columns Form -->
@@ -128,3 +136,8 @@
   </section>
 </main>
 <!-- End #main -->
+<?php
+require_once "../shared/scripts.php";
+require_once "../shared/footer.php";
+
+?>

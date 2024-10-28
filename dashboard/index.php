@@ -1,3 +1,11 @@
+<?php
+require_once "C:/xampp/htdocs/realState/app/configDB.php";
+require_once "C:/xampp/htdocs/realState/app/functions.php";
+require_once "./shared/head.php";
+require_once "./shared/navbar.php";
+require_once "./shared/sidebar.php";
+
+?>
 <main id="main" class="main">
   <div class="pagetitle">
     <h1>Dashboard</h1>
@@ -743,3 +751,9 @@
   </section>
 </main>
 <!-- End #main -->
+
+<?php
+require_once "./shared/scripts.php";
+require_once "./shared/footer.php";
+
+?>
